@@ -954,7 +954,7 @@ function Viewer() {
 				
 			},
 			function onProgress(xhr) {
-				ViewerUI.loaderInfo.innerHTML = 'Майже завантажено';
+				ViewerUI.loaderInfo.innerHTML = 'Майже завантажено...';
 			},
 			function onError(err) {
 				ViewerUI.loaderInfo.innerHTML = 'Error loading model! See console for more info.';
