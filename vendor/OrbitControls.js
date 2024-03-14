@@ -55,7 +55,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	this.enablePan = true;
 	this.panSpeed = 0.0;
 	this.screenSpacePanning = false; // if true, pan in screen-space
-	this.keyPanSpeed = 7.0;	// pixels moved per arrow key push
+	this.keyPanSpeed = 0.0;	// pixels moved per arrow key push
 
 	// Set to true to automatically rotate around the target
 	// If auto-rotate is enabled, you must call controls.update() in your animation loop
