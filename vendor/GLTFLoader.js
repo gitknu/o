@@ -850,7 +850,7 @@ THREE.GLTFLoader = ( function () {
 				material.map = materialParams.map === undefined ? null : materialParams.map;
 
 				material.lightMap = null;
-				material.lightMapIntensity = 1.0;
+				material.lightMapIntensity = 5.0;
 
 				material.aoMap = materialParams.aoMap === undefined ? null : materialParams.aoMap;
 				material.aoMapIntensity = 1.0;
