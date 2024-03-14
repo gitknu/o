@@ -774,7 +774,7 @@ function Viewer() {
 		
 		show(ViewerUI.loader);
 		ViewerUI.modelBrowserContent.innerHTML = '';
-		ViewerUI.loaderInfo.innerHTML = 'Loading model...';
+		ViewerUI.loaderInfo.innerHTML = 'Завантаження...';
 		
 		gltfLoader.load(
 			url,
