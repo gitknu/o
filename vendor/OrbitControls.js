@@ -45,7 +45,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	// This option actually enables dollying in and out; left as "zoom" for backwards compatibility.
 	// Set to false to disable zooming
 	this.enableZoom = false;
-	this.zoomSpeed = 1.0;
+	this.zoomSpeed = 0.0;
 
 	// Set to false to disable rotating
 	this.enableRotate = true;
@@ -527,6 +527,22 @@ THREE.OrbitControls = function ( object, domElement ) {
 	function handleMouseUp( /*event*/ ) {
 
 		// no-op
+
+	}
+
+	function handleMouseWheel( event ) {
+
+		if ( event.deltaY < 0 ) {
+
+			dollyOut( getZoomScale() );
+
+		} else if ( event.deltaY > 0 ) {
+
+			dollyIn( getZoomScale() );
+
+		}
+
+		scope.update();
 
 	}
 
