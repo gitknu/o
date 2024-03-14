@@ -115,7 +115,7 @@ function Viewer() {
 	ctx.textAlign = 'center';
 
 	let mainColor = '#fff';
-	let otherColor = '#ccc';
+	let otherColor = '#fff';
 
 	let bg = ctx.createLinearGradient(0, 0, 0, size);
 	bg.addColorStop(0, mainColor);
