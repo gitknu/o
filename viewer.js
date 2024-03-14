@@ -1,10 +1,3 @@
-
-
-/*
-	Copyright Abhinav Singh Chauhan (@xclkvj)
-	Copying the contents of this file by any means is prohibited.
-*/
-
 const ViewerBG = '#eee';
 const ViewerUI = {
 	canvasWrapper: document.getElementById('viewerCanvasWrapper'),
