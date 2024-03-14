@@ -1,12 +1,3 @@
-/**
- * @author qiao / https://github.com/qiao
- * @author mrdoob / http://mrdoob.com
- * @author alteredq / http://alteredqualia.com/
- * @author WestLangley / http://github.com/WestLangley
- * @author erich666 / http://erichaines.com
- * @author ScieCode / http://github.com/sciecode
- */
-
 // This set of controls performs orbiting, dollying (zooming), and panning.
 // Unlike TrackballControls, it maintains the "up" direction object.up (+Y by default).
 //
@@ -53,8 +44,6 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	// This option actually enables dollying in and out; left as "zoom" for backwards compatibility.
 	// Set to false to disable zooming
-	this.enableZoom = true;
-	this.zoomSpeed = 1.0;
 
 	// Set to false to disable rotating
 	this.enableRotate = true;
