@@ -110,7 +110,7 @@ function Viewer() {
 	canvas.width = size;
 	canvas.height = size;
 
-	ctx.font = 'bolder 12px "Open sans", Arial';
+	ctx.font = 'bolder 0px "Open sans", Arial';
 	ctx.textBaseline = 'middle';
 	ctx.textAlign = 'center';
 
