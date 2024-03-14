@@ -954,11 +954,11 @@ function Viewer() {
 				
 			},
 			function onProgress(xhr) {
-				ViewerUI.loaderInfo.innerHTML = Math.round(xhr.loaded / xhr.total * 100) + '% loaded';
+				ViewerUI.loaderInfo.innerHTML = 'Майже завантажено';
 			},
 			function onError(err) {
 				ViewerUI.loaderInfo.innerHTML = 'Error loading model! See console for more info.';
-				console.error('Error loading model!', err);
+				console.error('Помилка!', err);
 			}
 		);
 		
