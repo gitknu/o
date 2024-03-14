@@ -745,7 +745,7 @@ function Viewer() {
 	
 	let d = 5;
 
-	let selectColor = new THREE.Color(none);
+	let selectColor = new THREE.Color('#555');
 	let hiddenColor = new THREE.Color('#555');
 	let hiddenAlpha = 0.3;
 
