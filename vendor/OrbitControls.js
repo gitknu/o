@@ -268,7 +268,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var STATE = {
 		NONE: - 1,
 		ROTATE: 0,
-		DOLLY: 1,
+		DOLLY: 5,
 		PAN: 2,
 		TOUCH_ROTATE: 3,
 		TOUCH_PAN: 4,
