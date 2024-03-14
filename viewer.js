@@ -106,7 +106,7 @@ function Viewer() {
 	let canvas = document.createElement('canvas');
 	let ctx = canvas.getContext('2d');
 	
-	let size = 64;
+	let size = 0;
 	canvas.width = size;
 	canvas.height = size;
 
