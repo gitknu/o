@@ -664,7 +664,7 @@ function Viewer() {
 		canvas.height = fontsize + paddingTop * 2 + margin * 2;
 
 		ctx.shadowBlur = 10;
-		ctx.shadowColor = '#555';
+		ctx.shadowColor = 'white';
 		ctx.fillStyle = '#009bff';
 		roundRect(ctx, margin, margin, canvas.width - margin * 2, canvas.height - margin * 2, 10);
 
@@ -745,7 +745,7 @@ function Viewer() {
 	
 	let d = 5;
 
-	let selectColor = new THREE.Color('#42006b');
+	let selectColor = new THREE.Color(none);
 	let hiddenColor = new THREE.Color('#555');
 	let hiddenAlpha = 0.3;
 
